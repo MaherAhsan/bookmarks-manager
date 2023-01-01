@@ -1,0 +1,12 @@
+{
+	"name": "bookmarks mannager",
+	"version": "0.01",
+	"manifest_version": 3,
+	"permissions": ["bookmarks", "tabs"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_title": "bookmarks manager"
+	}
+}

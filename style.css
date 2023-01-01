@@ -1,0 +1,63 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+header {
+	height: 7rem;
+	background-color: cyan;
+	color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header h1 {
+	font-size: 2.3rem;
+}
+.icon {
+	height: 1.5rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+#list {
+	margin-left: 0rem;
+}
+li {
+	list-style: none;
+	background: #eee;
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+ul {
+	margin-left: 1rem;
+}
+ul li:nth-child(odd) {
+	background: #f9f9f9;
+}
+ul li:hover {
+	background: #ddd;
+}
+h3 {
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 0.7rem;
+	background-color: rgb(185, 182, 182);
+}
+h3 button {
+	color: white;
+}
+.remove-child,
+.remove-tree {
+	float: right;
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 50%;
+	border: none;
+	background-color: transparent;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+[data-name] {
+	cursor: pointer;
+}
