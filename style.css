@@ -3,52 +3,45 @@
 	padding: 0%;
 }
 header {
-	height: 7rem;
-	background-color: cyan;
-	color: white;
-	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 header h1 {
-	font-size: 2.3rem;
+	font-size: 1.8rem;
 }
 .icon {
 	height: 1.5rem;
 	float: left;
 	margin-right: 0.5rem;
 }
+.down {
+	height: 1.2rem;
+}
 #list {
+	margin-top: 0.1rem;
 	margin-left: 0rem;
 }
 li {
 	list-style: none;
-	background: #eee;
 	font-size: 1rem;
 	padding: 0.5rem;
 }
+
 ul {
-	margin-left: 1rem;
+	margin-left: 1.3rem;
 }
-ul li:nth-child(odd) {
-	background: #f9f9f9;
-}
+
 ul li:hover {
-	background: #ddd;
+	background: rgb(244, 243, 243);
 }
-h3 {
-	color: white;
+.heading {
 	text-align: center;
 	font-size: 1.2rem;
-	padding: 0.7rem;
-	background-color: rgb(185, 182, 182);
 }
 h3 button {
 	color: white;
 }
-.remove-child,
-.remove-tree {
+[data-name="remove-child"],
+[data-name="remove-tree"] {
 	float: right;
 	width: 1.6rem;
 	height: 1.6rem;
@@ -60,4 +53,7 @@ h3 button {
 }
 [data-name] {
 	cursor: pointer;
+}
+.collapse-true {
+	display: none;
 }
